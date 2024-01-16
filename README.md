@@ -26,6 +26,9 @@ height：可选，窗口高度
 
 title：可选，窗口标题
 
+###### 预览
+![Alt text](image/image.png)
+
 ##### 打字机
 ###### 使用
 ```
@@ -53,3 +56,5 @@ $('.contentlist').wordslist();
 covercolor：可选，选中内容时背景颜色
 
 recycle：可选，1-循环，0-不循环
+###### 预览
+![Alt text](image/image2.gif)
