@@ -1,0 +1,21 @@
+.wordlist-group{
+	visibility:visible;
+	font-size: inherit;
+}
+.wordlist-group i{
+	font-style:normal;
+	visibility: hidden;
+	position: absolute;
+	font-size: inherit;
+	color: inherit;
+}
+.wordlist-selected{
+	border-right:1px solid #10adf2;
+}
+.wordlist-covered{
+	background: #10adf2;
+}
+.wordlist-group .in{
+	position: relative;
+	visibility: visible;
+}

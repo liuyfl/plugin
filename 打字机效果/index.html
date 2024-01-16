@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>打字机效果</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery.word.css">
+	<script type="text/javascript" src="jquery.word.js"></script>
+	<style type="text/css">
+	body{
+		background: #b7e7e2;
+	}
+	.content{
+		font-size: 40px;
+		color: white;
+		position: absolute;
+	}
+	.contentlist{
+		position: absolute;
+		top:300px;
+		color:white;
+		font-size: 40px;
+	}
+	</style>
+</head>
+<body>
+	<div class="content">content test</div>
+	<div class="contentlist">
+		<span class="word-group">test1</span>
+		<span class="word-group">test2</span>
+		<span class="word-group">test3</span>
+	</div>
+	<script type="text/javascript">
+	$(function(){
+		$('.content').typelist({
+			'covercolor':'#bae8ce',
+			'recycle':0,
+		});
+		$('.contentlist').wordslist();
+	})
+	</script>
+</body>
+</html>

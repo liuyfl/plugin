@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>仿win效果</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery.win.css">
+	<script type="text/javascript" src="jquery.win.js"></script>
+	<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<body>
+	<div id='win'>这是一个测试div</div>
+	<div id='win1'>这是一个测试div</div>
+	<script type="text/javascript">
+	$(function(){
+		$('#win1').lyfwin_effect({
+			title:'第二个个',
+		});
+		$('#win').lyfwin_effect();
+		
+	});
+	</script>
+</body>
+</html>
