@@ -1,9 +1,12 @@
 #jquery插件
+
 1、[访window弹窗全屏最小化及拖拽](#访window弹窗全屏最小化及拖拽)
+
 2、[打字机](#打字机)
 
-#####访window弹窗全屏最小化及拖拽
-######使用
+
+##### 访window弹窗全屏最小化及拖拽
+###### 使用
 ```
 引入jquery.win.js、jquery.win.css文件
 
@@ -16,13 +19,15 @@ html
 javascript
 $('#win').lyfwin_effect();
 ```
-######参数
+###### 参数
 width：可选，窗口宽度
+
 height：可选，窗口高度
+
 title：可选，窗口标题
 
-######打字机
-######使用
+##### 打字机
+###### 使用
 ```
 引入jquery.win.js、jquery.win.css文件
 
@@ -44,6 +49,7 @@ $('.content').typelist({
 });
 $('.contentlist').wordslist();
 ```
-######参数
+###### 参数
 covercolor：可选，选中内容时背景颜色
+
 recycle：可选，1-循环，0-不循环
